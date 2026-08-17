@@ -53,5 +53,6 @@ async def on_message(message):
 # =========================
 # START BOT
 # =========================
+print("TOKEN FOUND:", TOKEN is not None)
 
 client.run(TOKEN)
